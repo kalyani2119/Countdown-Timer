@@ -1,8 +1,8 @@
 # Countdown-Timer
 Embedded C program for countdown timer using 8051 microcontroller and LCD display
 #include<reg51.h>
-sbit rs=p1^0;
-sbit en=p1^1;
+sbit rs=P1^0;
+sbit en=P1^1;
 
 void delay(unsigned int count)
 {
